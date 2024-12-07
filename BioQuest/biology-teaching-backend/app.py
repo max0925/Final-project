@@ -11,10 +11,11 @@ from openai import OpenAI
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
-# Set API key
+# Set API key (Add the APIs)
 client = OpenAI(api_key="")
-UNSPLASH_ACCESS_KEY = "bxeQJmSPTSJV9xa9TBBYYl_cgASvM5yFAYCB4jDAkpI"
-YOUTUBE_API_KEY = "AIzaSyBW72sl0V-U5dhToSjpEcIW3hnnAswVpss"
+UNSPLASH_ACCESS_KEY = ""
+YOUTUBE_API_KEY = ""
+
 
 # ---------------------
 # OpenAI API features
